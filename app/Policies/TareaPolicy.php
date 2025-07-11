@@ -30,7 +30,7 @@ class TareaPolicy
      */
     public function view(User $user, Tarea $tarea)
     {
-        //
+        return true;
     }
 
     /**
